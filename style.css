@@ -18,7 +18,7 @@ html, body{
 body{
     display: grid;
     place-items: center;
-    background: url(assets/Desktop.svg) no-repeat center/cover;
+     background: url(assets/Desktop.svg) center top/cover no-repeat fixed
 }
 
 main{
@@ -26,8 +26,8 @@ main{
     min-height: 810px;
     height: 100vh;
     position: relative;
-
-    background: var(--black-100);
+    padding: 0;
+    /* background: var(--black-100); */
 }
 
 
@@ -41,6 +41,7 @@ main{
     text-align: center;
 
     animation: up 1s linear;
+    min-width: 267px;
 }
 @keyframes up {
     0%{
@@ -54,7 +55,7 @@ main{
 .line{
     position: absolute;
     z-index: 1000;
-    top: -8.75rem;
+    top:-6.75rem;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -67,7 +68,7 @@ main{
     text-align: center;
     z-index: 1;
     position: relative;
-    
+    width: 262px;
     color: var(--gray);
 }
 
@@ -129,6 +130,11 @@ p{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+p:active{
+    -webkit-line-clamp: inherit;
 }
 
 li{
@@ -199,10 +205,6 @@ footer{
     opacity: 1;
   }
 
-/* 
-600px, 900px, 1200px e 1800px
-320px, 768px, 1024px
-*/
 
 @media(min-width: 499px) {
     main{
@@ -210,7 +212,7 @@ footer{
         height: 540px;
         min-height: 540px;
         background-color: transparent;
-       
+        padding: 2rem;
     }
     .flipper{
         animation: card 1s linear;
@@ -272,11 +274,7 @@ footer{
             top: -100rem;
         }
         100%{
-            top: -8.75rem;
+            top: -6.75rem;
         }
     }
-}
-
-.botao{
-    width: 50%;
 }
