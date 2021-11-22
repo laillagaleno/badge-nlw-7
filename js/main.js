@@ -36,7 +36,6 @@ function getGitHybProfileInfos(){
 
 getGitHybProfileInfos();
 
-
 function toastNotificationShowMessage(msgText){
     $("#msgToast").text(msgText);
     $("#toast").addClass("show");
@@ -51,19 +50,4 @@ async function copyToClipboard(){
     await navigator.clipboard.writeText(content);
     toastNotificationShowMessage("Copiado!");
 }
-
-        var youtubeLinkButton = document.getElementById('youtube');
-        var facebookLinkButton = document.getElementById('facebook');
-        var instagramLinkButton = document.getElementById('instagram');
-        var twitterLinkButton = document.getElementById('twitter');
-
-        // twitterLinkButton.addEventListener('click', function(){
-        //     if ($(".twitter a").getAttribute("href")= "https://twitter.com/" ){
-        //         toastNotificationShowMessage("naão");
-        //         alert("oi");
-        //     }
-           
-        // })
-
-       // colocar um dado no firebase
        
