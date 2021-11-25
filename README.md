@@ -57,6 +57,7 @@ Badge - é um crachá personalizado, desenvolvido na edição 7 da NLW Heat (Mis
 - [x] Notificação personalizável
 - [x] Responsivo
 - [x] Animações
+- [x] Flip Card
 
 ## 🎨 Layout
 
