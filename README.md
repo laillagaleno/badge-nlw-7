@@ -111,7 +111,7 @@ $ cd badge-nlw-7
 
 ## 🦸 Autora
 
-<img src="https://avatars.githubusercontent.com/u/82004991?s=400&u=969fc7d5e3ea0960bae5af72e9bf3316901bc0ac&v=4"  height="100px;" width="100px;" alt=""/><br/>
+<img src="https://avatars.githubusercontent.com/u/82004991?s=400&u=969fc7d5e3ea0960bae5af72e9bf3316901bc0ac&v=4"  style="border-style: initial; border-radius: 100%;" height="100px;" width="100px;" alt=""/><br/>
 <a href="https://github.com/laillagaleno"><b>Lailla Galeno</b></a> 
 <h5>:school_satchel:<b>NÃO ENTRE EM PÂNICO!</b>:earth_americas:</h5>
 <p>Sinta-se a vontade em expor suas ideias e dúvidas quanto a aplicação ❤️ <br/> 🚀 Juntos para o próximo nivel!</p>
